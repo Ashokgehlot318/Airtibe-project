@@ -1,6 +1,6 @@
 # Card-Board
 
-## Project link (https://simple-card-board.netlify.app/)
+## Project link - https://simple-card-board.netlify.app/
 
 ## Description
 
