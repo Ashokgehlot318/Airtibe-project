@@ -77,7 +77,12 @@ const Board = () => {
           {(provided) => (
             <div className='notStarted' ref={provided.innerRef} {...provided.droppableProps}>
               <div className='section-title'>
+                <div>
                 <span className='notStartedStatus'>Not Started</span> {notStartedCards.length}
+                </div>
+                
+                <span className='topstart' onClick={() => addNewCard('Not Started')}>+</span>
+
               </div>
               {notStartedCards.map((card, index) => (
                 <Draggable key={card.id} draggableId={card.id} index={index}>
@@ -108,7 +113,11 @@ const Board = () => {
           {(provided) => (
             <div className='inProgress' ref={provided.innerRef} {...provided.droppableProps}>
               <div className='section-title'>
-                <span className='inProgressStatus'>In Progress</span> {inProgressCards.length}
+                <div>
+
+                  <span className='inProgressStatus'>In Progress</span> {inProgressCards.length}
+                  </div>
+                <span className='topstart' onClick={() => addNewCard('In Progress')}>+</span>
               </div>
               {inProgressCards.map((card, index) => (
                 <Draggable key={card.id} draggableId={card.id} index={index}>
@@ -139,7 +148,11 @@ const Board = () => {
           {(provided) => (
             <div className='completed' ref={provided.innerRef} {...provided.droppableProps}>
               <div className='section-title'>
+                <div className="">
+
                 <span className='completedStatus'>Completed</span> {completedCards.length}
+                </div>
+                <span className='topstart' onClick={() => addNewCard('Completed')}>+</span>
               </div>
               {completedCards.map((card, index) => (
                 <Draggable key={card.id} draggableId={card.id} index={index}>
