@@ -1,0 +1,138 @@
+/* .board-header{
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.board-header > div {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.card {
+  border: 1px solid gray;
+  width: calc(33.33% -10px); 
+  /* margin: 5px;  */
+  /* margin: 5px 20px 5px 0;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.add-btn{
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  width: 21%;
+  color: gray;
+  font-weight: normal;
+  opacity: 0.6;
+  font-size: 1rem;
+}
+.heading{
+  font-weight: normal;
+  font-size: medium;
+}
+.space{
+  margin-top: 15px;
+  margin-right: 7px;  
+} */ 
+
+
+
+
+.board-header {
+  /* display: flex;
+  justify-content: space-around; */
+  /* max-width: 80%; */
+  /* max-width: 80%; */
+  /* margin: auto; */
+  display: flex;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-bottom: 0.5rem;
+  
+}
+
+.card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  /* width: calc(33.33% -10px); */
+  width: 400px;
+  min-width:max-content; 
+  /* border-radius: 5px; */
+  /* padding: 0.5rem; */
+  /* margin-bottom: 0.5rem; */
+  cursor: pointer;
+  box-shadow: 0px 2px 2px ;
+  /* border: 1px solid gray; */
+  /* width: calc(33.33% -10px);  */
+  /* margin: 5px;  */
+  margin: 5px 20px 10px 0; 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.add-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+.card-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the text color */
+}
+
+.notStartedStatus{
+  background-color: #FFCCD1;
+  padding: 2px 20px 2px 20px;
+  border-radius: 5px;
+  font-weight: normal;
+  margin-right: 10px;
+}
+.inProgressStatus{
+  background-color: #FBEECC;
+  padding: 2px 20px 2px 20px;
+  border-radius: 5px;
+  font-weight: normal;
+  margin-right: 10px;
+}
+.completedStatus{
+  background-color: #CCE7E1;
+  padding: 2px 20px 2px 20px;
+  border-radius: 5px;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+
+
+
+/* Dragging styles */
+.react-beautiful-dnd-draggable {
+  transition: background-color 0.2s ease;
+}
+
+.react-beautiful-dnd-draggable:hover {
+  background-color: #eaeaea;
+}
+
