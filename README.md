@@ -1,8 +1,25 @@
-# React + Vite
+# Card-Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project link (https://simple-card-board.netlify.app/)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a project for managing tasks on a kanban board. It allows users to add new tasks, move them between different stages (e.g., "Not Started", "In Progress", "Completed"), edit task details, and delete tasks.
+
+## Features
+
+- Add new tasks to the board.
+- Drag and drop tasks between different stages.
+- Double-click on a task to rename it.
+- Edit task details, such as title and description.
+- Delete tasks from the board.
+
+## Technologies Used
+
+- React.js
+- React Router
+- React Beautiful Dnd
+- Local Storage for data persistence
+- CSS for styling
+
+
